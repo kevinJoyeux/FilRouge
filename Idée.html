@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet</title>
+  <link rel="stylesheet" href="Idée.css">
+</head>
+<body>
+    <header id="tete">
+      <h1>Jeux des pauses de la RAN4</h1>
+    </header>
+    <nav>
+      <ul class=menu>
+        <li><a href="Accueil.html">Accueil</a></li>
+        <li><a href="Président.html">Président</a></li>
+        <li><a href="LoveLetter.html">Love Letter</a></li>
+        <li><a href="Idée.html">Des Idées ?</a></li>
+      </ul>
+    </nav>
+    <div>
+      Avez-vous des recommandations pour nous occuper durant les pauses? Si oui, alors n'hesitez pas à remplir le formulaire ci-contre.
+    </div>
+    <br></br>
+    <form action="./test.php" method="POST">
+    <label for ="">Nom</label> <br>
+    <input type="text" name="nom">
+    <br><br>
+    <label for ="">Prénom</label> <br>
+    <input type="text" name="prenom">
+    <br><br>
+    <fieldset>
+      <legend>Règles difficiles à comprendre</legend>
+      <div>
+        <input type="radio" id="Oui" name="diff" value="Oui">
+        <label for="Oui">Oui</label>
+      </div>
+      <div>
+        <input type="radio" id="Non" name="diff" value="Non">
+        <label for="Non">Non</label>
+      </div>
+    </fieldset>
+    <br><br>
+    <fieldset>
+      <legend>Parties rapide à enchainer </legend>
+      <div>
+        <input type="radio" id="Oui" name="vit" value="Oui">
+        <label for="Oui">Oui</label>
+      </div>
+      <div>
+        <input type="radio" id="Non" name="vit" value="Non">
+        <label for="Non">Non</label>
+      </div>
+    </fieldset>
+    <br></br>
+    <label for="">Description sommaire du jeu</label><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Envoyer">
+  </form>
+</body>
+</html>

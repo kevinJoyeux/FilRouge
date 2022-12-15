@@ -1,0 +1,44 @@
+.menu li{
+  list-style: none;
+  display: inline;
+  font-size: 40px;
+}
+.menu{
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+.menu a {
+    padding: 20px;                           
+    text-align: center;              
+    color: blueviolet;               
+    text-decoration: none;             
+}
+.menu a:hover {
+  color: red;
+}
+h1 {
+  text-align: left;
+  color: blueviolet;
+}
+#tete{
+  background-color: lightblue;
+}
+#pres{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: black;
+}
+h3{
+  text-align: center;
+}
+#test p:first-of-type:hover::after {
+  content: 'Oui le 2';
+  font-weight: bold;
+  position: absolute;
+  top:250px;
+  font-size: 100px;
+  color : black;
+}

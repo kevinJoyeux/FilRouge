@@ -1,0 +1,26 @@
+.menu li{
+  list-style: none;
+  display: inline;
+  font-size: 40px;
+}
+.menu{
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+.menu a {
+    padding: 20px;                           
+    text-align: center;              
+    color: blueviolet;               
+    text-decoration: none;             
+}
+.menu a:hover {
+  color: red;
+}
+h1 {
+  text-align: left;
+  color: blueviolet;
+}
+#tete{
+  background-color: lightblue;
+}
